@@ -48,7 +48,7 @@ valor del sensor de temperatura / activa la cama caliente:
 #define TEMP_SENSOR_BED 1
 ``` 
 
-## Endstop Settings
+## Endstop Settings (aprox línea 502)
 verificar:
 ``` 
 #define USE_XMIN_PLUG
@@ -82,7 +82,7 @@ M119
 ```
 <p align="center"><img src="https://raw.githubusercontent.com/carjavi/marlin-v1.1.9/master/img/endstop.png"  alt=" " /></p>
 
-## PID settings
+## PID settings (aprox línea 361)
 1. Conectar la impresora 3d por cable serial a una computadora, y usar un terminal serial
 2. Es necesario que la temperatura de hot-end este a temperatura ambiente. Si tienes un ventilador de capa se envia el comando **M106**. Esto prendera el ventilador de capa a toda velocidad.
 3. En la consola se ingresa el comando **M303 E0 S200 C8**, donde:
@@ -123,7 +123,7 @@ nuevo valor:
 ```
 Para mayor información: https://minkafab.com/calibracion-impresora-3d-con-marlin-1-1-9/
 
-## Valocidad y aceleración 
+## Valocidad y aceleración (aprox línea 618)
 Default configuration:
 ```
 #define DEFAULT_MAX_FEEDRATE          { 300, 300, 5, 25 }
@@ -153,8 +153,6 @@ Default configuration:
 #define DEFAULT_ZJERK                  0.3
 #define DEFAULT_EJERK                  5.0
 ```
-
-
 
 
 # Comandos G-code
