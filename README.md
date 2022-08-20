@@ -76,7 +76,7 @@ si los endstop son por Positivo:
 #define Y_MIN_ENDSTOP_INVERTING true // set to true to invert the logic of the endstop.
 #define Z_MIN_ENDSTOP_INVERTING true // set to true to invert the logic of the endstop.
 ``` 
-## Probando desde Pronterface
+## Probando ENDSTOP desde Pronterface
 ```
 M119
 ```
@@ -122,6 +122,40 @@ nuevo valor:
 #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 2560, 104.54 }
 ```
 Para mayor información: https://minkafab.com/calibracion-impresora-3d-con-marlin-1-1-9/
+
+## Valocidad y aceleración 
+Default configuration:
+```
+#define DEFAULT_MAX_FEEDRATE          { 300, 300, 5, 25 }
+#define DEFAULT_MAX_ACCELERATION      { 3000, 3000, 100, 10000 }
+
+#define DEFAULT_ACCELERATION          3000    // X, Y, Z and E acceleration for printing moves
+#define DEFAULT_RETRACT_ACCELERATION  3000    // E acceleration for retracts
+#define DEFAULT_TRAVEL_ACCELERATION   3000    // X, Y, Z acceleration for travel (non printing) moves
+
+#define DEFAULT_XJERK                 10.0
+#define DEFAULT_YJERK                 10.0
+#define DEFAULT_ZJERK                  0.3
+#define DEFAULT_EJERK                  5.0
+```
+
+## Prusa i3 setting
+```
+#define DEFAULT_MAX_FEEDRATE          { 200, 200, 5, 25 }
+#define DEFAULT_MAX_ACCELERATION      { 800, 800, 12, 10000 }
+
+#define DEFAULT_ACCELERATION          800    // X, Y, Z and E acceleration for printing moves
+#define DEFAULT_RETRACT_ACCELERATION  800    // E acceleration for retracts
+#define DEFAULT_TRAVEL_ACCELERATION   800    // X, Y, Z acceleration for travel (non printing) moves
+
+#define DEFAULT_XJERK                 8.0
+#define DEFAULT_YJERK                 8.0
+#define DEFAULT_ZJERK                  0.3
+#define DEFAULT_EJERK                  5.0
+```
+
+
+
 
 # Comandos G-code
 ```
