@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/carjavi/marlin-v119/master/img/marlin-v119.png" height="100" alt=" " /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/carjavi/marlin-v1.1.9/master/img/marlin-v119.png" height="300" alt=" " /></p>
 <br>
 <h1 align="center">Marlin-v1.1.9 setting for PRUSA i3</h1> 
 <h4 align="right">Aug 22</h4>
@@ -80,7 +80,7 @@ si los endstop son por Positivo:
 ```
 M119
 ```
-<p align="center"><img src="https://raw.githubusercontent.com/carjavi/marlin-v119/master/img/endstop.png"  alt=" " /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/carjavi/marlin-v1.1.9/master/img/endstop.png"  alt=" " /></p>
 
 ## PID settings
 1. Conectar la impresora 3d por cable serial a una computadora, y usar un terminal serial
@@ -143,5 +143,5 @@ Copyright &copy; 2022 [carjavi](https://github.com/carjavi). <br>
 ```www.instintodigital.net``` <br>
 carjavi@hotmail.com <br>
 <p align="center">
-    <a href="https://instintodigital.net/" target="_blank"><img src="https://raw.githubusercontent.com/carjavi/markdown-guide/master/img/developer.png" height="100" alt="www.instintodigital.net"></a>
+    <a href="https://instintodigital.net/" target="_blank"><img src="https://raw.githubusercontent.com/carjavi/marlin-v1.1.9/master/img/developer.png" height="100" alt="www.instintodigital.net"></a>
 </p>
