@@ -177,6 +177,12 @@ M211 S0 #deshabilita la seguridad de los finales de carrera, lo que nos va a per
 M119 #ver el status de los endstop
 ```
 
+<p align="center"><img src="https://raw.githubusercontent.com/carjavi/marlin-v1.1.9/master/img/ramp14.png"  alt=" " /></p>
+
+<p align="center"><img src="https://raw.githubusercontent.com/carjavi/marlin-v1.1.9/master/img/ramp14eb.png"  alt=" " /></p>
+
+<p align="center"><img src="https://raw.githubusercontent.com/carjavi/marlin-v1.1.9/master/img/ramp14eb2.png"  alt=" " /></p>
+
 # Links
 - Tutorial Cura https://of3lia.com/ultimaker-cura/
 - wiki https://www.instructables.com/Motion-Configuration-on-Ramps-14-with-Marlin-firmw/
