@@ -30,23 +30,36 @@ viene desabilitado.
 ## Habilita controlador LCD (aprox línea 1530)
 No viene habilitado, la LCD no funciona por default
 ``` 
+
 #define REPRAP_DISCOUNT_SMART_CONTROLLER
 ``` 
+## Nombre de la impresora en la LCD (aprox línea 139)
+``` 
+#define CUSTOM_MACHINE_NAME "nombre-impresora"
+``` 
+
 ## electronics board (aprox línea 130)
 Ramp 1.4
 ``` 
 #define MOTHERBOARD BOARD_RAMPS_14_EFB
 ``` 
+
 ## filament diameter (aprox línea 150)
 ``` 
 #define DEFAULT_NOMINAL_FILAMENT_DIA 1.75
 ``` 
+
 ## Thermal Settings (aprox línea 261)
 valor del sensor de temperatura / activa la cama caliente:
 ``` 
 #define TEMP_SENSOR_0 1
 #define TEMP_SENSOR_BED 1
 ``` 
+
+## Activa el PID-Autotune-menu (aprox línea 371)
+```
+#define PID_AUTOTUNE_MENU
+```
 
 ## Endstop Settings (aprox línea 502)
 verificar:
@@ -76,7 +89,7 @@ si los endstop son por Positivo:
 #define Y_MIN_ENDSTOP_INVERTING true // set to true to invert the logic of the endstop.
 #define Z_MIN_ENDSTOP_INVERTING true // set to true to invert the logic of the endstop.
 ``` 
-## Probando ENDSTOP desde Pronterface
+## Get Endstop Status desde Pronterface
 ```
 M119
 ```
@@ -166,6 +179,10 @@ M119 #ver el status de los endstop
 
 # Links
 - Tutorial Cura https://of3lia.com/ultimaker-cura/
+- wiki https://www.instructables.com/Motion-Configuration-on-Ramps-14-with-Marlin-firmw/
+-  Pronterface http://www.pronterface.com/
+-  wiki https://minkafab.com/calibracion-impresora-3d-con-marlin-1-1-9/
+  
 
 
 
